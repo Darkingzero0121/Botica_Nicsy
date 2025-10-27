@@ -1,0 +1,8 @@
+pe\nicsy\botica\service\ProductoService.class
+pe\nicsy\botica\config\DBPool.class
+pe\nicsy\botica\web\CatalogoServlet.class
+pe\nicsy\botica\web\TestDBServlet.class
+pe\nicsy\botica\model\Producto.class
+pe\nicsy\botica\service\impl\ProductoServiceImpl.class
+pe\nicsy\botica\dao\impl\ProductoDAOImpl.class
+pe\nicsy\botica\dao\ProductoDAO.class
