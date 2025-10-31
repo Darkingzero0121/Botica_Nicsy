@@ -19,17 +19,15 @@
     </head>
 
     <body>
-        <!-- ✅ Navbar global -->
+
         <jsp:include page="header.jsp"/>
 
-        <!-- ✅ Contenido principal -->
+
         <div class="content-wrapper">
             <main class="container my-4 flex-grow-1">
                 <h3 class="mb-4 text-center fw-bold">Catálogo de Productos</h3>
 
-                <!-- ================================
-                     Barra de búsqueda
-                =================================== -->
+
                 <form class="row mb-4 align-items-center" method="get" action="<%=request.getContextPath()%>/catalogo">
                     <div class="col-md-6 mb-2">
                         <input type="text" class="form-control" name="q"
@@ -51,9 +49,6 @@
                     </div>
                 </form>
 
-                <!-- ================================
-                     Listado de productos
-                =================================== -->
                 <div class="row" id="grid">
                     <%
                         List<Producto> productos = (List<Producto>) request.getAttribute("productos");
@@ -90,10 +85,9 @@
             </main>
         </div>
 
-        <!-- ✅ Footer global -->
+
         <jsp:include page="footer.jsp"/>
 
-        <!-- JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="<%=request.getContextPath()%>/js/catalogo.js"></script>
     </body>
