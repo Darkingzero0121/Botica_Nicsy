@@ -15,14 +15,11 @@
     </head>
 
     <body>
-        <!-- ✅ Navbar global -->
+
         <jsp:include page="header.jsp"/>
 
-        <!-- ✅ Contenido principal -->
         <div class="content-wrapper">
-            <!-- ================================
-                 CARRUSEL DE OFERTAS
-            =================================== -->
+
             <div id="carruselOfertas" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -50,9 +47,6 @@
                 </button>
             </div>
 
-            <!-- ================================
-                 MISIÓN Y VISIÓN
-            =================================== -->
             <section class="container text-center my-5 fade-in">
                 <h2 class="mb-4 fw-bold">Nuestra Misión y Visión</h2>
                 <p class="text-muted mb-5">Comprometidos con tu salud y bienestar</p>
@@ -84,7 +78,6 @@
                 </div>
             </section>
         </div>
-        <!-- Beneficios -->
         <section class="benefits-section py-5 text-center">
             <div class="container">
                 <h4 class="fw-bold mb-3">¿Por qué elegirnos?</h4>
@@ -109,10 +102,8 @@
             </div>
         </section>
 
-        <!-- ✅ Footer global -->
         <jsp:include page="footer.jsp"/>
 
-        <!-- JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
